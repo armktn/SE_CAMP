@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>workshop # html-form</title>
+    </head>
+    <body>
+        <h1>Workshop #HTML - FORM</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>ชื่อ</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>สกุล</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>วัน/เดือน/ปีเกิด</td>
+                    <td><input type="date" /></td>
+                </tr>
+                <tr>
+                    <td>อายุ</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>เพศ</td>
+                    <td>
+                        <input type="radio" id="male" name="music" />
+                        <label for="male">ชาย</label>
+                        <input type="radio" id="female" name="music" />
+                        <label for="female">หญิง</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>รูป</td>
+                    <td><input type="file" /></td>
+                </tr>
+                <tr>
+                    <td>ที่อยู่</td>
+                    <td><textarea rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td>สีที่ชอบ</td>
+                    <td>
+                        <select>
+                            <option value="" disabled selected>---</option>
+                            <option>สีน้ำเงิน</option>
+                            <option>สีแดง</option>
+                            <option>สีชมพู</option>
+                            <option>สีส้ม</option>
+                            <option>สีเหลือง</option>
+                            <option>สีดำ</option>
+                            <option>สีเขียว</option>
+                            <option>สีน้ำตาล</option>
+                            <option>สีขาว</option>
+                            <option>สีม่วง</option>
+                            <option>สีฟ้า</option>
+                            <option>สีเทา</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>แนวเพลงที่ชอบ</td>
+                    <td>
+                        <input type="radio" id="choice1" name="music" />
+                        <label for="choice1">เพื่อชีวิต</label>
+                        <input type="radio" id="choice2" name="music" />
+                        <label for="choice2">ลูกทุ่ง</label>
+                        <input type="radio" id="choice3" name="music" />
+                        <label for="choice3">อื่นๆ</label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="checkbox" />ยินยอมให้เก็บข้อมูล</td><br><br><br>
+            <table width = "30%">
+                <tr>
+                    <td><input type="reset" /></td>
+                    <td><input type="submit" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
